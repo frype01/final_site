@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWICK STORE</title>
+
+  <link rel="shortcut icon" href="img/img logo/logo.jpg" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <nav class="nav">
+                    <ul class="nav-list-left">
+                        <li class="nav-item"><a class="nav-link" href="index.html">ГОЛОВНА СТОРІНКА</a></li>
+                        <li class="nav-item"><a class="nav-link" href="catalog.html">КАТАЛОГ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="departure.html">ВІДПРАВЛЕННЯ</a></li>
+                    </ul>
+
+                    <div class="nav-logo">
+                        <a href="index.html"><img class="nav-logo-img" src="img/img logo/logo.jpg" alt="logo"></a>
+                    </div>
+
+                    <ul class="nav-list-right">
+                        <li class="nav-item"><a class="nav-link-right" href="return.html">ПОВЕРНЕННЯ</a></li>
+                        <li class="nav-item"><a class="nav-link-right" href="connection.html">НАПИСАТИ НАМ</a></li>
+                    </ul>
+
+                    <div class="nav-icons">
+                        <div id="openModal" class="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title">Наші соц мережі</h3>
+                                        <a href="#close" title="Close" class="close">×</a>
+                                    </div>
+                                    <div class="modal-body">    
+                                        <ul>
+                                            <li class="modal-items"><a target="_blank" href="https://www.instagram.com/swick.store/"><img src="/img/img logo/instagram logo.png" alt=""></a></li>
+                                            <li class="modal-items"><a target="_blank" href="https://web.telegram.org/k/#@SwickStore"><img src="img/img logo/telegram logo.webp" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        <a class="nav-icons-img" href="#openModal"><img class="soc-icon" src="img/share-fill.svg" alt="socials"></a>
+                        <a class="nav-icons-img" href="basket.html"><img class="basket-icon" src="img/cart-fill.svg" alt="basket"></a>
+                        <a class="nav-icons-img" href="profile.html"><img class="account-icon" src="img/person-fill.svg" alt="account"></a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="connection-page">
+            <div class="container">
+                <div class="connection-wrapper">
+                    <div class="connection-title-page">
+                        <h1>Написати Нам</h1>
+                        <img src="img/line.png" alt="line">
+                    </div>
+
+                    <div class="connection-content">
+                        <div class="connection-content-left">
+                            <p>Київ</p>
+                            <a class="telegram" target="_blank" href="https://t.me/+s3YkPB0g-tc4ODYy">
+                                <img src="img/img logo/telegram logo.webp" alt="telegram-logo">
+                                <p>@swick.store</p>
+                            </a>
+                            <span class="gmail" href="#">
+                                <img src="img/img logo/gmail logo.svg" alt="gmail logo">
+                                <p>swickstore@gmail.com</p>
+                            </span>
+                            <a class="inst" target="_blank" href="https://www.instagram.com/swick.store/">
+                                <img src="img/img logo/instagram logo.png" alt="instagram-logo">
+                            </a>
+                        </div>
+
+                        <div class="connection-content-right">
+                            <form class="form" action="mail.php" method="post">
+
+                                <input type="hidden" name="project_name" value="Swick store">
+                                <input type="hidden" name="admin_email" value="romaromnuk@gmail.com">
+                                <input type="hidden" name="form_subject" value="Сообщение">
+
+                                <div class="name-tel">
+                                    <input class="name-tel-inp" type="text" name="user_name" placeholder="Повне ім'я" required>
+                                    <input class="name-tel-inp" type="tel" name="user_phone" placeholder="Телефон">
+                                </div>
+                                <input class="email" type="email" name="user_email" placeholder="Електронна адреса" required>
+                                <textarea class="massange" rows="10" name="user_massange" placeholder="Повідомлення" required></textarea>
+                                <button class="send">звяжіться з нами</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189252.60742305822!2d30.4905171467119!3d50.44034735673197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1680243955645!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+    <footer class="footer-catalog">
+        <div class="container">
+            <div class="footer-wrappper">
+                <div class="footer-inst">
+                    <a class="inst-img-link" target="_blank" href="https://www.instagram.com/swick.store/">
+                        <img class="inst-img" src="/img/img logo/instagram logo.png" alt="instagram-logo">
+                    </a>
+                </div>
+
+                <div class="footer-content">
+                    <div class="footer-links">
+                        <a class="footer-item" href="/index.html">Головна сторінка</a>
+                        <a class="footer-item" href="/catalog.html">Каталог</a>
+                        <a class="footer-item" href="/departure.html">Відправлення</a>
+                        <a class="footer-item" href="/return.html">Повернення/Ттн Код</a>
+                        <a class="footer-item" href="#">Промо</a>
+                        <a class="footer-item" href="/connection.html">Написати нам</a>
+                    </div>
+                    
+                    <div class="footer-law">
+                        <p>Авторские права © 2023 Все права защищены - Swick.store-магазин одежды и кросовок Nike,Jordan,Adidas</p>
+                        <a href="#">Конфиденциальность</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

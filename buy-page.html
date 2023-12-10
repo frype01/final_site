@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swick Store</title>
+
+    <link rel="shortcut icon" href="/img/img logo/logo.jpg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/media.css">
+</head>
+<body class="buy-page-body">
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <nav class="nav">
+                    <ul class="nav-list-left">
+                        <li class="nav-item"><a class="nav-link" href="index.html">ГОЛОВНА СТОРІНКА</a></li>
+                        <li class="nav-item"><a class="nav-link" href="catalog.html">КАТАЛОГ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="departure.html">ВІДПРАВЛЕННЯ</a></li>
+                    </ul>
+
+                    <div class="nav-logo">
+                        <a href="index.html"><img class="nav-logo-img" src="img/img logo/logo.jpg" alt="logo"></a>
+                    </div>
+
+                    <ul class="nav-list-right">
+                        <li class="nav-item"><a class="nav-link-right" href="return.html">ПОВЕРНЕННЯ</a></li>
+                        <li class="nav-item"><a class="nav-link-right" href="connection.html">НАПИСАТИ НАМ</a></li>
+                    </ul>
+
+                    <div class="nav-icons">
+                        <div id="openModal" class="modal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h3 class="modal-title">Наші соц мережі</h3>
+                                        <a href="#close" title="Close" class="close">×</a>
+                                    </div>
+                                    <div class="modal-body">    
+                                        <ul>
+                                            <li class="modal-items"><a target="_blank" href="https://www.instagram.com/swick.store/"><img src="/img/img logo/instagram logo.png" alt=""></a></li>
+                                            <li class="modal-items"><a target="_blank" href="https://web.telegram.org/k/#@SwickStore"><img src="img/img logo/telegram logo.webp" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        <a class="nav-icons-img" href="#openModal"><img class="soc-icon" src="img/share-fill.svg" alt="socials"></a>
+                        <a class="nav-icons-img" href="basket.html"><img class="basket-icon" src="img/cart-fill.svg" alt="basket"></a>
+                        <a class="nav-icons-img" href="profile.html"><img class="account-icon" src="img/person-fill.svg" alt="account"></a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="buy-page">
+        <section class="buy-page-content">
+            <div class="container">
+                <div class="buy-page-title">
+                    <h1>заповнити замовлення</h1>
+                    <img src="/img/line.png" alt="line">
+                </div>
+            </div>
+
+            <div class="buy-page-input">
+                <form class="buy-page-form" action="mail.php" method="post">
+                    <div class="buy-page-info">
+                        <input class="buy-page-inp" type="email" placeholder="Електронна адреса" required>
+                        <input class="buy-page-inp" type="text" placeholder="Ім'я і фамілія" required>
+                        <input class="buy-page-inp" type="text" placeholder="Країна" required>
+                        <input class="buy-page-inp" type="text" placeholder="Місто, область або село" required>
+                        <input class="buy-page-inp" type="tel" placeholder="Номер телефона" required>
+                        <input class="buy-page-inp post-number-inp" type="number" placeholder="Номер пошти" required>
+                        <a class="buy-page-button" href="/index.html">
+                            <button class="buy-page-btn">
+                                <input type="submit" value="ЗАМОВИТИ">
+                            </button>
+                        </a>
+                        <h1 class="buy-page-down-title">Після замовлення з важи зв'яжиться менеджер у вайбері</h1>
+                    </div>
+
+                    <div class="buy-page-radio">
+                        <div class="buy-page-radio-label">
+                            <input class="radio-label" name="radio" type="radio" required>
+                            <label class="radio-label">Нова-пошта (пред оплата 250грн)</label>
+                        </div>
+                        <div class="buy-page-radio-label radio-2">
+                            <input class="radio-label" name="radio" type="radio" required>
+                            <label class="radio-label">Укр-пошта (пред оплата 250грн)</label>
+                        </div>
+                        <div class="buy-page-radio-label radio-3">
+                            <input class="radio-label" name="radio" type="radio" required>
+                            <label class="radio-label">Інша пошта (повна пред оплата)</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-buy-page">
+        <div class="container">
+            <div class="footer-wrapper-buy-page">
+                <div class="footer-inst">
+                    <a class="inst-img-link" target="_blank" href="https://www.instagram.com/swick.store/">
+                        <img class="inst-img" src="/img/img logo/instagram logo.png" alt="instagram-logo">
+                    </a>
+                </div>
+
+                <div class="footer-content">
+                    <div class="footer-links">
+                        <a class="footer-item" href="/index.html">Головна сторінка</a>
+                        <a class="footer-item" href="/catalog.html">Каталог</a>
+                        <a class="footer-item" href="/departure.html">Відправлення</a>
+                        <a class="footer-item" href="/return.html">Повернення/Ттн Код</a>
+                        <a class="footer-item" href="#">Промо</a>
+                        <a class="footer-item" href="/connection.html">Написати нам</a>
+                    </div>
+                    
+                    <div class="footer-law">
+                        <p>Авторские права © 2023 Все права защищены - Swick.store-магазин одежды и кросовок Nike,Jordan,Adidas</p>
+                        <a href="#">Конфиденциальность</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
